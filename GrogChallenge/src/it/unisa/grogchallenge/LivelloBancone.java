@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Random;
 
-import com.google.android.gms.internal.fo;
 
 import android.content.Context;
 import android.graphics.Bitmap;

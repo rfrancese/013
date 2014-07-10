@@ -33,8 +33,6 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.google.android.gms.auth.GoogleAuthUtil;
-import com.google.android.gms.internal.hh;
 
 public class ConnectJsonUtil {
 	private AccountManager mAccountManager;
@@ -100,14 +98,14 @@ public class ConnectJsonUtil {
 
 
 	public String[] getAccountNames() {
-	    mAccountManager = AccountManager.get(ctx);
-	    Account[] accounts = mAccountManager.getAccountsByType(
-	            GoogleAuthUtil.GOOGLE_ACCOUNT_TYPE);
+	   /* mAccountManager = AccountManager.get(ctx);
+	    Account[] accounts = mAccountManager.getAccountsByType(GoogleAuthUtil.GOOGLE_ACCOUNT_TYPE);
 	    String[] names = new String[accounts.length];
 	    for (int i = 0; i < names.length; i++) {
 	        names[i] = accounts[i].name;
 	    }
-	    return names;
+	    return names;*/
+		return null;
 	}
 
  private String POST(String url){
