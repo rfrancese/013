@@ -98,14 +98,14 @@ public class ConnectJsonUtil {
 
 
 	public String[] getAccountNames() {
-	   /* mAccountManager = AccountManager.get(ctx);
+	    mAccountManager = AccountManager.get(ctx);
 	    Account[] accounts = mAccountManager.getAccountsByType(GoogleAuthUtil.GOOGLE_ACCOUNT_TYPE);
 	    String[] names = new String[accounts.length];
 	    for (int i = 0; i < names.length; i++) {
 	        names[i] = accounts[i].name;
 	    }
-	    return names;*/
-		return null;
+	    return names;
+		
 	}
 
  private String POST(String url){
